@@ -148,7 +148,7 @@ Client (Frontend)
 
 **3. Create a Note**
 - Method: POST
-- URL: http://localhost:5000/api/notes
+- URL: http://localhost:5000/api/notes/create
 - Headers:
   - Authorization: Bearer <JWT_TOKEN>
   - Content-Type: application/json
@@ -169,9 +169,17 @@ Client (Frontend)
 - Headers:
   - Authorization: Bearer <JWT_TOKEN>
 
-**5. Update/Delete Note**
-- Use PUT/DELETE methods on URL: http://localhost:5000/api/notes/:id
-- Provide Authorization header with JWT token
-- in put give Content-Type: application/json in headers
+**5. Update Note**
+- Method: PUT
+- URL: http://localhost:5000/api/notes/:id
+- Headers:
+  - Authorization: Bearer <JWT_TOKEN>
+  - Content-Type: application/json in headers
+
+**5. Delete Note**
+- Method: DELETE
+- URL: http://localhost:5000/api/notes/:id
+- Headers:
+  - Authorization: Bearer <JWT_TOKEN>
 
 ---
