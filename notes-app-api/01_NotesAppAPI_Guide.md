@@ -172,6 +172,6 @@ Client (Frontend)
 **5. Update/Delete Note**
 - Use PUT/DELETE methods on URL: http://localhost:5000/api/notes/:id
 - Provide Authorization header with JWT token
--in put give Content-Type: application/json in headers
+- in put give Content-Type: application/json in headers
 
 ---
